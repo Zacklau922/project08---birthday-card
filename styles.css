@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#40c9ff, #e81cff);
+    color: white;
+    text-shadow: -2px 1px 1px black;
+}
+
+#pk {
+    border-radius: 80px;
+    width: 150px;
+    border: 3px solid white;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#age {
+    background: pink;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+#date {
+    background: pink;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.gift-box {
+    width: 400px;
+    height: 400px;
+    background-image: url("gift-box.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.gift-box:hover {
+    background-image: url("https://media1.giphy.com/media/V2JgPXdvuCKrDo9uem/giphy.gif?cid=ecf05e47nd0yhitfgzuopv8cn1idyzpm0upbbheguxtq9ekw&rid=giphy.gif&ct=g");
+}
+
+.gift-box2 {
+    width: 400px;
+    height: 400px;
+    background-image: url("gift-box.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.gift-box2:hover {
+    background-image: url("https://media.giphy.com/media/3aWkZTWqeVyHS/giphy.gif")
+}
+
+.gift-box3 {
+    width: 600px;
+    height: 400px;
+    margin-right: 90px;    
+}
+
+.nothing {
+    margin-top: 50px;
+}
+
